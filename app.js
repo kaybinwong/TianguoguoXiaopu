@@ -215,7 +215,7 @@ App({
     activeCategoryId: null,
 
     userInfo: null,
-    subDomain: "tgg",// 商城后台个性域名tgg
+    subDomain: "fslongxi88",// 商城后台个性域名tgg
     version: "2.0.6",
     shareProfile: '   一流的服务，做超新鲜的水果' // 首页转发的时候术语
   }

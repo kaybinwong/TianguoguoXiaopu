@@ -39,7 +39,7 @@ Page({
     })
     that.getRecommendTitlePicStr();
     wx.setNavigationBarTitle({
-      title: '果果精选',
+      title: '嘉丽精选',
     })
     that.getBanners();
     that.getNotice();

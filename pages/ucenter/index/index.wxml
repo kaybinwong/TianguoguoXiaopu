@@ -103,10 +103,16 @@
       </navigator>
     </view>
     <view class="item no-border-bottom">
+      <navigator url="" hover-class="none" class="a">
+        <wxc-icon type='rate' size='{{iconSize}}' color='lightgray' style='margin:15rpx 0 10rpx 0;'></wxc-icon>
+        <text class="txt" style='color:lightgray;text-decoration: line-through;'>建议反馈</text>
+      </navigator>
+    <!--
       <navigator url="/pages/ucenter/feedback/feedback" hover-class="none" class="a">
         <wxc-icon type='comment' size='{{iconSize}}' color='{{iconColor}}' style='margin:15rpx 0 10rpx 0;'></wxc-icon>
         <text class="txt">意见反馈</text>
       </navigator>
+    -->
     </view>
   </view>
   <view style="height:20rpx;width:100%;"></view>
@@ -114,7 +120,7 @@
     <button type="warn" bindtap="relogin" style='font-size:24rpx;background-color:#FF5777;'>重新授权登录</button>
   </view>
 
-  <view class="version" style='margin-top:10rpx;font-size:18rpx;'>Copyright © 2017-2018 qindiandadudu(GitHub ID)</view>
+  <view class="version" style='margin-top:10rpx;font-size:18rpx;'>Copyright ©2018 by kaybinwong</view>
   <view class='version' style='height:20rpx;line-height:20rpx;font-size:16rpx;font-style: oblique;'>Powered by EastWorld v {{version}}</view>
   <view style="height:12rpx;width:100%;"></view>
 </view>
